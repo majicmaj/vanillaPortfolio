@@ -44,12 +44,12 @@ i {
   width: min-content;
 }
 .earth {
-  width: 120vmax;
+  width: 100vmin;
   height: 40vh;
   background: #eee;
   background: linear-gradient(#eee, #fff, #fff, #fff);
   position: absolute;
-  bottom: -20vh;
+  bottom: -10vh;
   border-radius: 100%;
 }
 a {

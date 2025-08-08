@@ -44,7 +44,7 @@ i {
   transition: transform 0.5s;
 }
 .header {
-  padding-top: 30vmin;
+  padding-top: 50vmin;
   grid-gap: calc(max(1vmin, 10px) / 2);
 }
 .links {
@@ -98,7 +98,6 @@ a:active .icon {
 
 .bg img {
   position: relative;
-  top: -15vmin;
   left: -2vmin;
   width: 50vmin;
 }

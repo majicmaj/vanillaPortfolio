@@ -43,6 +43,7 @@ i {
   fill: currentColor;
 }
 .header {
+  padding-top: 40vh;
   grid-gap: calc(max(1vmin, 10px) / 2);
 }
 .links {

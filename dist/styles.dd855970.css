@@ -41,9 +41,10 @@ i {
   width: max(5vmin, 24px);
   height: max(5vmin, 24px);
   fill: currentColor;
+  transition: transform 0.5s;
 }
 .header {
-  padding-top: 40vh;
+  padding-top: 30vmin;
   grid-gap: calc(max(1vmin, 10px) / 2);
 }
 .links {
@@ -67,20 +68,29 @@ a {
   transition: 0.5s;
 }
 a:hover {
-  transform: scale(1.1);
   filter: brightness(1.1);
   text-shadow: 0px 0px 8px #00204050;
 }
+
+a:hover .icon {
+  transform: scale(1.1);
+}
+
 a:active {
   transform: scale(0.9);
   transition: 0.1s;
+}
+
+a:active .icon {
+  transform: scale(0.9);
+  transition: transform 0.1s;
 }
 
 .bg {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 0.12;
+  opacity: 0.3;
   z-index: -2;
   display: grid;
   place-items: center;
@@ -88,9 +98,9 @@ a:active {
 
 .bg img {
   position: relative;
-  top: 0;
+  top: -15vmin;
   left: -2vmin;
-  width: 45vmin;
+  width: 50vmin;
 }
 
 

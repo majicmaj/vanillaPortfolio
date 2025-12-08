@@ -62,6 +62,7 @@ i {
   bottom: -10vh;
   border-radius: 100%;
   opacity: 0.02;
+  z-index: -1;
 }
 a {
   color: #1778f2;
